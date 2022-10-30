@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "753133386271",
+    "firebase_url": "https://esisba-724ea-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "esisba-724ea",
+    "storage_bucket": "esisba-724ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753133386271:android:e2afacdb6f772e3823732a",
+        "android_client_info": {
+          "package_name": "com.example.esisba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753133386271-ru53r5bk1rrbsb075iacltjsru639u87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8crlPCjJrK4LckHBJcZKoT9BqLzKNHzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753133386271-ru53r5bk1rrbsb075iacltjsru639u87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753133386271:android:0f457101411cda0f23732a",
+        "android_client_info": {
+          "package_name": "com.example.esistudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753133386271-ru53r5bk1rrbsb075iacltjsru639u87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8crlPCjJrK4LckHBJcZKoT9BqLzKNHzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753133386271-ru53r5bk1rrbsb075iacltjsru639u87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

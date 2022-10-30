@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity1"
+    android:padding="20dp"
+    android:background="@color/white"
+    >
+
+    <ImageView
+
+        android:id="@+id/esisba"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/esisba">
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/esisba"
+        android:background="@drawable/myback"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="Welcome everybody"
+            android:textColor="@color/white"
+            android:textSize="25dp">
+
+        </TextView>
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/myback1"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            >
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/signup"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/myback1"
+            android:layout_marginTop="20dp"
+            android:text="Sign Up"
+            android:backgroundTint="#565559"
+            >
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="1dp"
+                android:background="@drawable/myback1"
+                android:layout_marginTop="10dp"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To contact us"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+            </TextView>
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="1dp"
+                android:background="@drawable/myback1"
+                android:layout_marginTop="10dp"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bilinsta"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic__298747_insta"
+            android:layout_marginTop="25dp"
+            >
+
+        </ImageView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
